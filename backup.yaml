@@ -1,1 +1,7 @@
-
+- name: example of backup file via aap gui playbook  
+  hosts: all
+  tasks:
+    - name: create directpor  
+      file: 
+           src: /tmp/test
+           state: touch
