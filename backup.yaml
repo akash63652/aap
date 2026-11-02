@@ -3,4 +3,4 @@
   tasks:
      - name: create file
           path: /tmp/akash
-          state: directory
+          state: touch
