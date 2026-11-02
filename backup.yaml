@@ -2,5 +2,6 @@
   hosts: all
   tasks:
      - name: create file
-          path: /tmp/akash
-          state: touch
+       file:
+             path: /tmp/akash
+             state: touch
