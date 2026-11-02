@@ -1,4 +1,5 @@
-- name: example of backup file via aap gui playbook
+---
+    - name: example of backup file via aap gui playbook
       hosts: all
       vars:
         ansible_python_interpreter: auto_silent
