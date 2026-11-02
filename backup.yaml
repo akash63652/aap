@@ -1,11 +1,8 @@
----
-    - name: example of backup file via aap gui playbook
+- name: example of backup file via aap gui playbook
       hosts: all
       vars:
         ansible_python_interpreter: auto_silent
       tasks:
         - name: create file
-          ansible.builtin.file:
-            path: /tmp/test
-            state: touch
-            mode: '0644'
+          path: /tmp/akash
+          state: directory
